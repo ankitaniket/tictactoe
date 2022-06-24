@@ -92,15 +92,9 @@ public class MainActivity extends AppCompatActivity {
         activePlayer = 0;
         Arrays.fill(gameState, 2);
 
-        ((ImageView)findViewById(R.id.imageView0)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView1)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView2)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView3)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView4)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView5)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView6)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView7)).setImageResource(0);
-        ((ImageView)findViewById(R.id.imageView8)).setImageResource(0);
+  for (int i : new int[]{R.id.imageView0, R.id.imageView1, R.id.imageView2, R.id.imageView3, R.id.imageView4, R.id.imageView5, R.id.imageView6, R.id.imageView7, R.id.imageView8}) {
+            ((ImageView)findViewById(i)).setImageResource(0);
+        }
 
         TextView status = findViewById(R.id.status);
         status.setText("X's Turn - Tap to play");
