@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 status.setText(R.string.str1);
             }
         }
-
+        // Draw Case
         boolean emptySquare = false;
         for (int squareState : gameState) {
             if (squareState == 2) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         activePlayer = 0;
         Arrays.fill(gameState, 2);
 
-  for (int i : new int[]{R.id.imageView0, R.id.imageView1, R.id.imageView2, R.id.imageView3, R.id.imageView4, R.id.imageView5, R.id.imageView6, R.id.imageView7, R.id.imageView8}) {
+        for (int i : new int[]{R.id.imageView0, R.id.imageView1, R.id.imageView2, R.id.imageView3, R.id.imageView4, R.id.imageView5, R.id.imageView6, R.id.imageView7, R.id.imageView8}) {
             ((ImageView)findViewById(i)).setImageResource(0);
         }
 
@@ -107,5 +107,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void Reset(View view) {
+        gameActive = true;
+        activePlayer = 0;
+        Arrays.fill(gameState, 2);
+
+        for (int i : new int[]{R.id.imageView0, R.id.imageView1, R.id.imageView2, R.id.imageView3, R.id.imageView4, R.id.imageView5, R.id.imageView6, R.id.imageView7, R.id.imageView8}) {
+            ((ImageView)findViewById(i)).setImageResource(0);
+        }
+
+        TextView status = findViewById(R.id.status);
+        status.setText("X's Turn - Tap to play");
     }
 }
