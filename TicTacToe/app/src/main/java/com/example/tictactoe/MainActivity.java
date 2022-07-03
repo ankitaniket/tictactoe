@@ -1,20 +1,20 @@
 package com.example.tictactoe;
-
 import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import java.util.Arrays;
-
 
 public class MainActivity extends AppCompatActivity {
     boolean gameActive = true;
     // Player representation
     // 0 - X
     // 1 - O
+
+    // hello check
+
     int activePlayer = 0;
     int[] gameState = {2, 2 , 2, 2, 2, 2, 2, 2, 2};
     //    State meanings:

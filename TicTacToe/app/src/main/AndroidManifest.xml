@@ -4,7 +4,6 @@
     package="com.example.tictactoe" >
 
 
-     this is a new line 2
 
     <application
         android:allowBackup="true"
