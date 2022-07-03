@@ -10,7 +10,6 @@ import android.widget.TextView;
 import java.util.Arrays;
 
 
-This is an experimental branch here we proceed with new features while working on previous version
 
 public class MainActivity extends AppCompatActivity {
     boolean gameActive = true;
