@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import java.util.Arrays;
 
+This is second time I'm writing in main activity file
+
 public class MainActivity extends AppCompatActivity {
     boolean gameActive = true;
     // Player representation
