@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
         // define the global variable
 
-        // Add button Move to Activity
+        // Add button Move to Activity and for ai button
 
         Button offline_button;
         Button ai_button;
