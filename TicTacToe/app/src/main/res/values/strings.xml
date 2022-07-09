@@ -7,7 +7,8 @@
     <string name="button_1">Reset</string>
     <string name="Button_2">Offline Play</string>
     <string name="Intro">Choose your play mode</string>
-    <string name="mode2">With AI</string>
+    <string name="Button_3">With AI</string>
     <string name="app_banner">App Banner</string>
+    <string name="display_image">Display Image</string>
 
 </resources>
