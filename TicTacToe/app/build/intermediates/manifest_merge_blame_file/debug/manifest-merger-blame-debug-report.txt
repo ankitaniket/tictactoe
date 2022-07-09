@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tictactoe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:8:5-33:19
+12        android:allowBackup="true"
+12-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:9:9-35
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] /Users/ankitaniket/.gradle/caches/transforms-3/de1e35496e1c0123eb063454bfce5cfb/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:10:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:11:9-54
+17        android:icon="@drawable/tic"
+17-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:13:9-37
+18        android:label="@string/app_name"
+18-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:14:9-41
+19        android:roundIcon="@drawable/tic"
+19-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:15:9-42
+20        android:supportsRtl="true"
+20-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:16:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.TicTacToe" >
+22-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:17:9-47
+23        <activity
+23-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:19:9-23:40
+24            android:name="com.example.tictactoe.Game_offline"
+24-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:20:13-41
+25            android:exported="false"
+25-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:23:13-37
+26            android:parentActivityName="com.example.tictactoe.MainActivity"
+26-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:21:13-55
+27            android:screenOrientation="portrait" />
+27-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:22:13-49
+28        <activity
+28-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:24:9-32:20
+29            android:name="com.example.tictactoe.MainActivity"
+29-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:25:13-41
+30            android:exported="true" >
+30-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:26:13-36
+31            <intent-filter>
+31-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:27:13-31:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:28:17-69
+32-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:28:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:30:17-77
+34-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:30:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

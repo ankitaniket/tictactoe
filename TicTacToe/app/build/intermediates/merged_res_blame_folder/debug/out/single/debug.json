@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_rounded_btn.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/rounded_btn.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_backwhite.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/backwhite.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable-v24_o.png.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable-v24/o.png"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_tic.jpg.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/tic.jpg"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.tictactoe.app-pngs-4:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/layout_activity_game_offline.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/layout/activity_game_offline.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_back.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/back.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/xml_backup_rules.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable-v24_x.png.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable-v24/x.png"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/layout_activity_main.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable-v24_grid.png.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable-v24/grid.png"
+    }
+]
