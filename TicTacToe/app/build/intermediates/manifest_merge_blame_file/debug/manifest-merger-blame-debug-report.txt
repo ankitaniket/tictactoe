@@ -40,8 +40,8 @@
 25-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:23:13-37
 26            android:parentActivityName="com.example.tictactoe.MainActivity"
 26-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:21:13-55
-27            android:screenOrientation="portrait" />
-27-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:22:13-49
+27            android:screenOrientation="fullSensor" />
+27-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:22:13-51
 28        <activity
 28-->/Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:24:9-32:20
 29            android:name="com.example.tictactoe.MainActivity"

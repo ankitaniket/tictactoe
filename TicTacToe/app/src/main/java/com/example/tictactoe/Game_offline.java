@@ -16,6 +16,7 @@ public class Game_offline extends AppCompatActivity {
     // 0 - X
     // 1 - O
 
+
     int activePlayer = 0;
     int[] gameState = {2, 2 , 2, 2, 2, 2, 2, 2, 2};
     //    State meanings:
@@ -25,7 +26,6 @@ public class Game_offline extends AppCompatActivity {
     int[][] winPositions = {{0,1,2}, {3,4,5}, {6,7,8},
             {0,3,6}, {1,4,7}, {2,5,8},
             {0,4,8}, {2,4,6}};
-
 
 
     public void playerTap(View view){
@@ -59,7 +59,7 @@ public class Game_offline extends AppCompatActivity {
         if (!emptySquare && gameActive) {
             // Game is a draw
             gameActive = false;
-            String winnerStr;
+             String winnerStr;
             winnerStr = "It's a Draw \n Tap to play again";
             TextView status = findViewById(R.id.status);
             status.setText(winnerStr);
@@ -100,9 +100,6 @@ public class Game_offline extends AppCompatActivity {
             ((ImageView)findViewById(i)).setImageResource(0);
         }
 
-        TextView status = findViewById(R.id.status);
-        status.setText("X's Turn - Tap to play");
-
     }
 
 
@@ -122,7 +119,6 @@ public class Game_offline extends AppCompatActivity {
         for (int i : new int[]{R.id.imageView0, R.id.imageView1, R.id.imageView2, R.id.imageView3, R.id.imageView4, R.id.imageView5, R.id.imageView6, R.id.imageView7, R.id.imageView8}) {
             ((ImageView)findViewById(i)).setImageResource(0);
         }
-
         TextView status = findViewById(R.id.status);
         status.setText("X's Turn - Tap to play");
     }

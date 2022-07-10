@@ -81,7 +81,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ankitaniket/
 activity#com.example.tictactoe.Game_offline
 ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:19:9-23:40
 	android:screenOrientation
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:22:13-51
 	android:parentActivityName
 		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:21:13-55
 	android:exported

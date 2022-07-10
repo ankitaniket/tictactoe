@@ -4,8 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F7F6"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="italic|bold" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -32,15 +44,26 @@
 
         </LinearLayout>
 
+
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/relativ"
-            android:layout_centerHorizontal="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:padding="12dp"
+            android:shadowColor="#0055FF"
+            android:shadowDx="-12"
+            android:shadowDy="12"
+            android:shadowRadius="8"
             android:text="@string/Intro"
-            android:textColor="#DC0C2653"
-            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="#EBEFED"
+            android:textSize="23sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -52,11 +75,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/back"
             android:fontFamily="sans-serif-light"
             android:text="@string/Button_2"
-            android:textColor="@android:color/background_dark"
+            android:textColor="@color/white"
+            android:textSize="23sp"
             android:textStyle="bold" />
 
         <Button
@@ -69,8 +93,8 @@
             android:background="@drawable/backwhite"
             android:fontFamily="sans-serif-light"
             android:text="@string/Button_3"
-            android:textColor="#DC0C2653"
-            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textSize="23sp"
             android:textStyle="bold" />
 
     </RelativeLayout>

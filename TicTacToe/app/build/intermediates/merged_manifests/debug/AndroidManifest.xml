@@ -24,7 +24,7 @@
             android:name="com.example.tictactoe.Game_offline"
             android:exported="false"
             android:parentActivityName="com.example.tictactoe.MainActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name="com.example.tictactoe.MainActivity"
             android:exported="true" >
