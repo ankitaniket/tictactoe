@@ -61,21 +61,21 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/ankitaniket/
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/ankitaniket/.gradle/caches/transforms-3/de1e35496e1c0123eb063454bfce5cfb/transformed/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:13:9-41
 	android:fullBackupContent
 		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:15:9-42
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:14:9-42
 	tools:targetApi
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:18:9-29
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:13:9-37
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:12:9-37
 	android:allowBackup
 		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:17:9-47
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:16:9-47
 	android:dataExtractionRules
 		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:10:9-65
 activity#com.example.tictactoe.Game_offline
@@ -89,17 +89,17 @@ ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:20:13-41
 activity#com.example.tictactoe.MainActivity
-ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:24:9-32:20
+ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:26:13-36
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:25:13-41
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:26:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:28:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
 ADDED from /Users/ankitaniket/Documents/Github/TicTacToe/app/src/main/AndroidManifest.xml:30:17-77
 	android:name

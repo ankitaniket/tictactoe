@@ -6,7 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".Game_offline">
 
-
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="X's turn Tap to play" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -144,17 +153,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:text="X's turn Tap to play" />
 
     <Button
         android:layout_width="wrap_content"
@@ -167,10 +165,10 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/status"
         tools:ignore="TextContrastCheck" />
 
 

@@ -7,16 +7,15 @@
     tools:context=".Game_offline">
 
     <TextView
+        android:id="@+id/status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
-        android:text="@string/heading"
         android:textAlignment="center"
-        android:textSize="30sp"
-        android:textStyle="italic|bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="X's turn Tap to play" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -25,7 +24,6 @@
         android:contentDescription="@string/grid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/grid" />
@@ -33,7 +31,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="370sp"
+        android:layout_height="390sp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -155,17 +153,6 @@
 
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/status"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        tools:text="X's turn Tap to play" />
 
     <Button
         android:layout_width="wrap_content"
@@ -178,10 +165,10 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/status"
         tools:ignore="TextContrastCheck" />
 
 
