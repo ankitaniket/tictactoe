@@ -12,12 +12,16 @@
         "source": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-main-11:/drawable-v24/o.png"
     },
     {
-        "merged": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-merged_res-9:/drawable_rounded_btn.xml.flat",
-        "source": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-main-11:/drawable/rounded_btn.xml"
+        "merged": "com.example.tictactoe.app-merged_res-9:/drawable_rounded_btn.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/drawable/rounded_btn.xml"
     },
     {
         "merged": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-merged_res-9:/layout_activity_game_offline.xml.flat",
         "source": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-main-11:/layout/activity_game_offline.xml"
+    },
+    {
+        "merged": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-merged_res-9:/drawable_rounded_btn.xml.flat",
+        "source": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-main-11:/drawable/rounded_btn.xml"
     },
     {
         "merged": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-merged_res-9:/drawable_tic.jpg.flat",
@@ -58,5 +62,9 @@
     {
         "merged": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-merged_res-9:/xml_backup_rules.xml.flat",
         "source": "/Users/ankitaniket/.gradle/daemon/7.4.2/com.example.tictactoe.app-main-11:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.tictactoe.app-merged_res-9:/layout_activity_main.xml.flat",
+        "source": "com.example.tictactoe.app-main-11:/layout/activity_main.xml"
     }
 ]
