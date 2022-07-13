@@ -7,26 +7,23 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="66dp"
-        android:textColor="@color/white"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
         android:text="@string/heading"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="italic|bold" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="450dp"
         android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
         android:layout_marginEnd="26dp"
         tools:ignore="UselessParent">
-
 
         <LinearLayout
             android:id="@+id/relativ"
@@ -44,7 +41,6 @@
 
         </LinearLayout>
 
-
         <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
@@ -54,6 +50,7 @@
             android:layout_alignParentEnd="true"
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
+            android:layout_marginBottom="23sp"
             android:padding="12dp"
             android:shadowColor="#0055FF"
             android:shadowDx="-12"
@@ -62,7 +59,7 @@
             android:text="@string/Intro"
             android:textAlignment="center"
             android:textColor="#EBEFED"
-            android:textSize="23sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -88,8 +85,10 @@
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/bt1"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="9dp"
+            android:layout_marginBottom="31dp"
             android:background="@drawable/backwhite"
             android:fontFamily="sans-serif-light"
             android:text="@string/Button_3"
