@@ -1,4 +1,6 @@
 # tictactoe
-Simple tic-tac-toe game for beginner without using any fancy algorithm.
+This game will focus having two modes Human and Computer.
 
-It has win & draw both cases with single page human multiplayer design.
+In computer mode we use minimax & alpha-beta pruning algo. for computer play
+
+It will integrated with google sign in option for Human mode.
